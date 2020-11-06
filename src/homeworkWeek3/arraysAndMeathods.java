@@ -35,7 +35,7 @@ public class arraysAndMeathods {
 
 		/*
 		 * 2. Create an array of String called names that contains the following values:
-		 * “Sam”, “Tommy”, “Tim”, “Sally”, “Buck”, “Bob”.
+		 * â€œSamâ€, â€œTommyâ€, â€œTimâ€, â€œSallyâ€, â€œBuckâ€, â€œBobâ€.
 		 */
 
 		String[] names = new String[6];
@@ -89,9 +89,6 @@ public class arraysAndMeathods {
 				String name = names[i];
 				nameLengths[i] = name.length();
 
-		/* for (int namelength : nameLengths) {
-		 *      nameLength = name.lenth
-		 */
 			
 			System.out.print(nameLengths[i] + str);
 		}
@@ -147,7 +144,7 @@ public class arraysAndMeathods {
 	/*
 	 * 7. Write a method that takes a String, word, and an int, n, as arguments and
 	 * returns the word concatenated to itself n number of times. (i.e. if I pass in
-	 * “Hello” and 3, I would expect the method to return “HelloHelloHello”).
+	 * â€œHelloâ€ and 3, I would expect the method to return â€œHelloHelloHelloâ€).
 	 */
 	
 
